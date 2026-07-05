@@ -1,6 +1,15 @@
+"use client"
+
 import { MessageCircle } from "lucide-react"
+import { motion } from "framer-motion"
 
 export default function Hero() {
+  const transitionSettings = (delay: number): any => ({
+    duration: 1.2,
+    ease: [0.22, 1, 0.36, 1],
+    delay,
+  })
+
   return (
     <section
       id="hero"
@@ -16,22 +25,42 @@ export default function Hero() {
       {/* Main Container */}
       <div className="container mx-auto px-4 md:px-6 relative z-10 flex flex-col items-center text-center max-w-4xl">
         {/* Badge */}
-        <span className="inline-flex items-center px-4 py-1.5 rounded-full text-xs md:text-sm font-semibold bg-[#DBEAFE] text-[#1E3A8A] tracking-wide mb-6">
+        <motion.span
+          initial={{ y: 30, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={transitionSettings(0)}
+          className="inline-flex items-center px-4 py-1.5 rounded-full text-xs md:text-sm font-semibold bg-[#DBEAFE] text-[#1E3A8A] tracking-wide mb-6"
+        >
           Corretora de seguros em Taquarituba
-        </span>
+        </motion.span>
 
         {/* H1 Title */}
-        <h1 className="text-4xl md:text-6xl font-bold text-[#1E3A8A] leading-tight max-w-3xl mx-auto tracking-tight">
+        <motion.h1
+          initial={{ y: 30, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={transitionSettings(0.4)}
+          className="text-4xl md:text-6xl font-bold text-[#1E3A8A] leading-tight max-w-3xl mx-auto tracking-tight"
+        >
           Mais de 30 anos protegendo quem confia na gente.
-        </h1>
+        </motion.h1>
 
         {/* Subtitle */}
-        <p className="text-[#475569] text-base md:text-lg font-normal leading-relaxed max-w-2xl mx-auto mt-6">
+        <motion.p
+          initial={{ y: 30, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={transitionSettings(0.8)}
+          className="text-[#475569] text-base md:text-lg font-normal leading-relaxed max-w-2xl mx-auto mt-6"
+        >
           Auto, residencial, vida, empresarial e mais. Cotamos com as melhores seguradoras e cuidamos de você do primeiro contato ao atendimento.
-        </p>
+        </motion.p>
 
         {/* Actions Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 mt-10 w-full sm:w-auto px-4 sm:px-0 justify-center">
+        <motion.div
+          initial={{ y: 30, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={transitionSettings(1.2)}
+          className="flex flex-col sm:flex-row gap-4 mt-10 w-full sm:w-auto px-4 sm:px-0 justify-center"
+        >
           {/* Primary Button: WhatsApp */}
           <a
             href="https://wa.me/5514997230206"
@@ -50,7 +79,7 @@ export default function Hero() {
           >
             <span>Solicitar cotação</span>
           </a>
-        </div>
+        </motion.div>
       </div>
     </section>
   )
