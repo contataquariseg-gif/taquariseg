@@ -4,23 +4,18 @@ import SectionHeading from "./SectionHeading"
 const stats = [
   {
     icon: Users,
-    title: "Atendimento humano",
+    title: "Atendimento profissional",
     description: "Você conversa com quem conhece você e a região.",
   },
   {
     icon: Award,
-    title: "31 anos de tradição",
+    title: "30+ anos de tradição",
     description: "Décadas ajudando famílias e empresas de Taquarituba.",
   },
   {
     icon: Handshake,
     title: "Melhores seguradoras",
     description: "Trabalhamos com as principais do país.",
-  },
-  {
-    icon: LifeBuoy,
-    title: "Suporte no sinistro",
-    description: "Do primeiro momento até a resolução completa.",
   },
 ]
 
@@ -37,7 +32,7 @@ export default function Diferenciais() {
           title="O que faz a diferença no nosso atendimento"
         />
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
           {stats.map((item, index) => {
             const Icon = item.icon
             return (

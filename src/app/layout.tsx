@@ -12,11 +12,11 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://taquariseg.com.br"),
-  title: "Taquariseg Seguros — 31 anos protegendo Taquarituba",
-  description: "Corretora de seguros em Taquarituba há 31 anos. Auto, residencial, vida, empresarial, saúde, transporte e máquinas agrícolas. Atendimento próximo e humano.",
+  title: "Taquariseg Seguros — 30+ anos protegendo Taquarituba",
+  description: "Corretora de seguros em Taquarituba há mais de 30 anos. Auto, residencial, vida, empresarial, saúde, transporte e máquinas agrícolas. Atendimento próximo e humano.",
   openGraph: {
-    title: "Taquariseg Seguros — 31 anos protegendo Taquarituba",
-    description: "Corretora de seguros em Taquarituba há 31 anos. Auto, residencial, vida, empresarial, saúde, transporte e máquinas agrícolas. Atendimento próximo e humano.",
+    title: "Taquariseg Seguros — 30+ anos protegendo Taquarituba",
+    description: "Corretora de seguros em Taquarituba há mais de 30 anos. Auto, residencial, vida, empresarial, saúde, transporte e máquinas agrícolas. Atendimento próximo e humano.",
     url: "https://taquariseg.com.br",
     siteName: "Taquariseg Seguros",
     locale: "pt-BR",

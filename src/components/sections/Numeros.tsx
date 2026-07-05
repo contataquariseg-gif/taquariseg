@@ -14,7 +14,7 @@ export default function Numeros() {
               <Award className="size-6" />
             </div>
             <span className="text-5xl md:text-6xl font-black text-brand-red tracking-tight">
-              31 anos
+              30+ anos
             </span>
             <p className="text-brand-navy font-bold text-base md:text-lg mt-3">
               De tradição em Taquarituba

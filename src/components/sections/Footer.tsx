@@ -35,7 +35,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-sm leading-relaxed text-slate-400 mt-2 max-w-sm">
-              Há 31 anos protegendo famílias, empresas e produtores de Taquarituba e região com confiança e proximidade.
+              Há mais de 30 anos protegendo famílias, empresas e produtores de Taquarituba e região com confiança e proximidade.
             </p>
           </div>
 

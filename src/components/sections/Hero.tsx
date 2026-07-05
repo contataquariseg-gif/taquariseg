@@ -27,7 +27,7 @@ export default function Hero() {
 
         {/* Subtitle */}
         <p className="text-[#475569] text-base md:text-lg font-normal leading-relaxed max-w-2xl mx-auto mt-6">
-          Auto, residencial, vida, empresarial e mais. Cotamos com as melhores seguradoras e cuidamos de você do primeiro contato ao sinistro.
+          Auto, residencial, vida, empresarial e mais. Cotamos com as melhores seguradoras e cuidamos de você do primeiro contato ao atendimento.
         </p>
 
         {/* Actions Buttons */}

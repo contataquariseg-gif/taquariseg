@@ -27,11 +27,6 @@ const faqItems = [
     question: "Quanto tempo demora para ter um retorno?",
     answer: "Normalmente respondemos em até 1 dia útil, geralmente no mesmo dia.",
   },
-  {
-    value: "faq-5",
-    question: "E se eu tiver um sinistro?",
-    answer: "Você fala com a gente primeiro. A gente orienta você em cada passo e acompanha até a resolução.",
-  },
 ]
 
 export default function Perguntas() {
