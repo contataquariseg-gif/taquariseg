@@ -18,14 +18,12 @@ export default function Home() {
         <Hero />
         <Numeros />
         <Sobre />
+        <Contato />
+        <Diferenciais />
         <Seguros />
         <ComoFunciona />
-        <Diferenciais />
-        <Perguntas />
         <CTAFinal />
-        
-        {/* Rodada 3: Formulário de Contato / Cotação */}
-        <Contato />
+        <Perguntas />
       </main>
       <Footer />
     </>

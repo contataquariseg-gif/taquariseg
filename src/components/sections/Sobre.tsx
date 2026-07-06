@@ -36,6 +36,9 @@ export default function Sobre() {
               <p>
                 A Taquariseg está há mais de 30 anos ajudando famílias, empresas e produtores da nossa região a proteger o que mais importa. Trabalhamos com as principais seguradoras do país e escolhemos a proteção certa para cada perfil, do carro da família ao maquinário da propriedade rural.
               </p>
+              <p>
+                Ao longo dessas três décadas, construímos uma forma de trabalhar que reflete o jeito da cidade. Escutamos com atenção, explicamos com clareza e cuidamos de cada cliente com a mesma dedicação que teríamos com quem faz parte da nossa própria família. É essa relação de confiança, construída no dia a dia, que faz tantas famílias e empresas da região continuarem com a gente ano após ano.
+              </p>
             </div>
           </div>
         </div>
