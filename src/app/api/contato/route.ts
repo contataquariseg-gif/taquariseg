@@ -13,8 +13,8 @@ export async function POST(request: Request) {
     }
     const { nome, email, telefone, assunto, mensagem } = parsed.data
     const { data, error } = await resend.emails.send({
-      from: "Taquariseg Site <onboarding@resend.dev>",
-      to: ["joaosilva3667765@gmail.com"],
+      from: "Taquariseg Site <noreply@taquariseg.com.br>",
+      to: ["contato@taquariseg.com.br"],
       replyTo: email,
       subject: `Nova mensagem do site: ${assunto}`,
       html: `
