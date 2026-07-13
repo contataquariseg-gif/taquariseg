@@ -44,14 +44,17 @@ export default function Contato() {
   async function onSubmit(data: ContatoInput) {
     setLoading(true)
     try {
-      await new Promise((r) => setTimeout(r, 1200)) // Simulates network latency
-      console.log("Dados do formulário:", data)
+      const response = await fetch("/api/contato", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      })
+      if (!response.ok) throw new Error("Falha no envio")
       toast.success("Mensagem enviada!", {
         description: "Retornamos em até 1 dia útil.",
       })
       reset()
     } catch (error) {
-      console.error(error)
       toast.error("Erro ao enviar", {
         description: "Tente novamente ou chame no WhatsApp.",
       })

@@ -22,6 +22,11 @@ export const metadata: Metadata = {
     locale: "pt-BR",
     type: "website",
   },
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({
