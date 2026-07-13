@@ -85,10 +85,10 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <Mail className="size-5 shrink-0 text-brand-red" />
                 <a
-                  href="mailto:[EMAIL]"
+                  href="mailto:contato@taquariseg.com.br"
                   className="hover:text-white transition-colors"
                 >
-                  [EMAIL]
+                  contato@taquariseg.com.br
                 </a>
               </li>
             </ul>

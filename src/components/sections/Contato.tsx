@@ -121,9 +121,12 @@ export default function Contato() {
                   <span className="block text-xs font-bold uppercase tracking-wider text-slate-400">
                     E-mail
                   </span>
-                  <span className="text-slate-600 font-semibold mt-0.5 inline-block text-base">
-                    [EMAIL]
-                  </span>
+                  <a
+                    href="mailto:contato@taquariseg.com.br"
+                    className="text-slate-600 hover:text-brand-red hover:underline font-semibold mt-0.5 inline-block text-base transition-colors"
+                  >
+                    contato@taquariseg.com.br
+                  </a>
                 </div>
               </div>
 
