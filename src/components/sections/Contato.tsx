@@ -52,6 +52,7 @@ export default function Contato() {
       if (!response.ok) throw new Error("Falha no envio")
       toast.success("Mensagem enviada!", {
         description: "Retornamos em até 1 dia útil.",
+        descriptionClassName: "text-gray-700 font-medium",
       })
       reset()
     } catch (error) {
