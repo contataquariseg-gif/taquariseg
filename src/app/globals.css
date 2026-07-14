@@ -133,3 +133,8 @@
     @apply font-sans scroll-smooth;
   }
 }
+
+[data-sonner-toast] [data-description] {
+  color: #1f2937 !important;
+  opacity: 1 !important;
+}
